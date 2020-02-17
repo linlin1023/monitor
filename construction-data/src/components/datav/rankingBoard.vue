@@ -49,6 +49,7 @@
     box-sizing: border-box;
     padding: 0px 30px;
 
+
     .ranking-board-title {
       font-weight: bold;
       height: 50px;
@@ -60,5 +61,9 @@
     .dv-scroll-ranking-board {
       flex: 1;
     }
+    .dv-scroll-ranking-board .row-item {
+      padding-top: 12px;
+    }
+
   }
 </style>
